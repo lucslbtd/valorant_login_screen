@@ -1,0 +1,80 @@
+
+
+.card{
+    background-color: white;
+    box-shadow:1px 1px 5px darkgrey;
+    border-radius: 5px;
+    padding: 40px;
+    
+}
+
+.form{
+    width: 400px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.logo{
+    text-align: center;
+    
+}
+
+.logotipo{
+    width: 120px;
+    height: 70px;
+    
+}
+
+h3{
+    color: darkred;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS';
+}
+
+.login{
+    margin-bottom: 10px;
+}
+
+.login > label{
+    display: block;
+    color: darkred;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.login > input{
+    border-radius: 5px;
+    outline: 0;
+    height: 30px;
+    width: 100%;
+}
+
+.login > button{
+    background-image: linear-gradient(to right, red, darkred );
+    border-radius: 50px;
+    color: white;
+    box-shadow: 1px 1px 5px grey;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    outline: 0;
+    border: 0px;
+}
+
+form{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
